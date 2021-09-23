@@ -1,0 +1,52 @@
+/*
+Date: 23 Sep 2021
+Editor : Ala
+Email: alaa.mohammadhb@gmail.com
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Yaldevi:wght@200;600;700&display=swap');
+/* General Style */
+
+* {
+    font-family: 'Yaldevi', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-image: linear-gradient(#081944 20%, #2e495f);
+    height: 100vh;
+    padding: 20px 80px;
+}
+
+p {
+    text-align: justify;
+}
+
+section {
+    width: 50%;
+    position: relative;
+}
+
+/* Heading  Style */
+
+h1 {
+    font-size: 100px;
+    margin-bottom: 150px;
+}
+
+h2 {
+    font-size: 50px;
+    font-weight: 800;
+    border-bottom: 3px solid #6b7c5f;
+}
+
+.circle {
+    width: 140px;
+    height: 140px;
+    background-color: rgba(246, 246, 246, 0.3);
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 20px;
+    z-index: 0;
+}
